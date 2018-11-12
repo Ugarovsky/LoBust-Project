@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body{
+    background-color:#eeeeee;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size:16px;
+    color:#555;
+    
+    -webkit-font-smoothing: antialiased;
+    -weblit-owerflow-scrolling:touch;
+    margin-top:70px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway";
+    font-weight: 300;
+    color:#333;
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.calc{
+    background: black;
+    color: white;
+    border: 4px double white;
+    width: 100%;
+    height: 40px;
+    border-radius: 10%;
+    opacity: 0.9;
+}
+
+.button-two{
+    color:white;
+    background: black;
+    height: 60px;
+    width: 170px;
+    margin-top:250%;
+    border:4px double white;
+    opacity: 0.95;
+}
+
+a{
+    color: #7a7a7a;
+    
+}
+
+a:hover, a:focus{
+    color: #7b7b7b;
+    text-decoration: none;
+    outline 0;
+}
+
+hr {
+    display:block;
+    height: 1px;
+    border: 0;
+    border-top:1px solid #css;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    
+}
+
+.navbar-inverse{
+    border-color:#2d2d2d;
+   box-shadow: 3px 3px 2px rgba(0,0,0,0.2);
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+    background-color:#ff7878;
+}
+
+.navbar-brand{
+    font-size: 22px;
+    margin-left: 100px;
+}
+
+.navbar-inverse{
+    color:#999;   
+}
+.navbar-collapse{
+    margin-right: 100px;
+}
+
+#headerwrap{
+    background: url(../Images/PicsArt_03-25-09_07_38.jpg) no-repeat center top;
+    text-align: center;
+    background-attachment: relarive;
+    background-position: center center;
+    min-height: 570px;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+
+#headerwrap-order{
+    background: url(../Images/PicsArt_03-25-11_10_15.jpg) no-repeat center top;
+    text-align: center;
+    background-attachment: relarive;
+    background-position: center center;
+    min-height: 570px;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+
+.h1-white h1{
+    font-family: "Raleway";
+    font-weight: 300;
+    color:white;
+    text-align: center;
+}
+
+.content-blocs{
+    margin-top:35px;
+}
+
+.content-blocs h4{
+    font-size:31px;
+    text-align: center;
+}
+.content-blocs p{
+    font-size:18px;
+    text-align: center;
+}
+
+.gray-block{
+   background: #2d2d2d;
+}
+
+.gray-block p, .gray-block h4{
+    color:#bfbfbf;
+}
+
+.white-block{
+    background: white;
+}
+
+.top-line{
+    opacity: 0.4;
+    margin-left: 10%;
+    margin-top: 70px;
+    width: 80%;
+    height: 1px;
+    background: black;
+}
+
+
+.top-line-two{
+    opacity: 0.4;
+    margin-left: 10%;
+    margin-top: 40px;
+    width: 80%;
+    height: 1px;
+    background: black;
+}
+
+.footer{
+    margin-top:40px;
+    width: 100%;
+    height: 75px;
+    background: black;
+    bottom: 0;
+}
+
+.button{
+ margin-top: 90%;
+ margin-left: 80%;
+ margin-left: 80%;
+ text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ border:double 6px #ffffff;  
+ font:30px "MS Serif", "New York", serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#424242; 
+ background-image: -moz-linear-gradient(top, #424242 0%, #000000 100%); 
+ background-image: -webkit-linear-gradient(top, #424242 0%, #000000 100%); 
+ background-image: -o-linear-gradient(top, #424242 0%, #000000 100%); 
+ background-image: -ms-linear-gradient(top, #424242 0% ,#000000 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); 
+ background-image: linear-gradient(top, #424242 0% ,#000000 100%);   
+ -webkit-box-shadow:0px 0px 1px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 1px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 1px #bababa, inset 0px 0px 1px #ffffff;  
+  }
+
+.button:hover{
+ padding:11px 32px; 
+ border:double 6px #878585; 
+ font:30px "MS Serif", "New York", serif; 
+ font-weight:bold; 
+ color:#edffff; 
+ background-color:#424242; 
+ background-image: -moz-linear-gradient(top, #424242 0%, #000000 100%); 
+ background-image: -webkit-linear-gradient(top, #424242 0%, #000000 100%); 
+ background-image: -o-linear-gradient(top, #424242 0%, #000000 100%); 
+ background-image: -ms-linear-gradient(top, #424242 0% ,#000000 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); 
+ background-image: linear-gradient(top, #424242 0% ,#000000 100%);   
+ -webkit-box-shadow:0px 0px 1px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 1px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 1px #bababa, inset 0px 0px 1px #ffffff;  
+ }
+
+#button-one{
+    margin-left: 20%;
+    height: 75px;
+    width: 60%;
+    font-size: 30px;
+    display: block;
+    background: rgba(255,255,255,0.23);
+    color: #fff; 
+    border-radius: 1px;
+    cursor: pointer; 
+    transition: .3s background;
+}
+
+#button-one a{
+    color:white;
+    margin-top:-0.5vw;
+}
+
+.colum-content{
+    column-width: 400px;
+column-rule:  2px dashed rgba(0,0,0,.5);
+    padding: 50
+}
+
+.colum-content p{
+ font-size:15px;    
+}
+
+.colum-content h2{
+ font-size:20px;   
+ font-family: fantasy;
+}
+
+.face{
+    margin-top: 50px;
+    background: black;
+    opacity: 0.6;;
+    height: 435px;
+    border: 2px solid black;
+}
+
+.face h1{
+    text-align: center;
+font-size:34px;
+    color:white;  
+}
+
+.face li{
+    text-align: left;
+    font-size: 20px;
+    color:white;
+}
+
+about-on{
+    text-align: center;
+}
+
+.about-on p{
+    font-size: 20px;
+}
+
+.face p{
+text-align: center;
+font-size:22px;
+color:white;    
+}
+
+#headerwrap-about{
+     background: url(../Images/PicsArt_03-25-08_24_04.jpg) no-repeat center top;
+    text-align: center;
+    background-attachment: relarive;
+    background-position: center center;
+    min-height: 570px;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+
+.footer p{
+    margin-left: 12%;
+    font-size: 20px;
+}
+
+.col-lg-12 h1{
+    text-align: center;
+}
+
+#headerwrap button:hover{
+    background: rgba(0,0,0,0.5);
+}
+
+.we-are{
+    background: white;
+    min-height: 300px;
+}
+
+.about{
+    margin-top: 35px;
+    min-height: 400px;
+   background: url(Images/city.jpg) no-repeat center top;
+}

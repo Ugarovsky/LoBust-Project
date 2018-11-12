@@ -1,0 +1,189 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>LoBust</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style/Style.css">
+    </head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+   <div class="conteiner">
+       <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+           </button>
+                 <a class="navbar-brand" href="Index.html">LoBust</a>
+       </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="Index.html">Главная</a></li>
+            <li class="active"><a href="Order.html">Заказать</a></li>
+            <li><a href="About.html">О нас</a></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    <div id="headerwrap-order">
+           <div class="container">
+               <div class="row centered">
+                   <div class="col-lg-6 face h1-white">
+                       <h1>Осталось совсем чуть-чуть</h1>
+                       <p>Вы уже у цели. Посчитать сумму заказа вы можете в специальном калькуляторе ниже. Вам осталось только сделать заказ! Для этого вам понадобится:</p>
+                       <ul>
+                           <li>1.Заполнить анкету</li>
+                           <li>2.Нажать кнопку Отправить</li>
+                       </ul>
+                       <br>
+                       <p>Также вы можете связаться с нашим Менеджером по любому из представленных ниже способов.Наша команда всегде отзывчивая и дружелюбная. Так что не бойтесь спрашивать!</p>
+                   </div>
+                   
+               </div>
+              
+           </div>
+       </div> 
+        <div class="container content-blocs">
+            <div class="row centered text-center">
+                 <div class="col-lg-4 text-center">
+                       <img src="Images/swords.png" width="10%">
+                       <h3>Первая 10-ка</h3>
+                       <p>Первые 10 заказчиков получат скидку в 30% на любой заказ. Акция не суммируется с другими, кроме большого заказа.</p>
+                        </div>
+                           <div class="col-lg-4 text-center">
+                       <img src="Images/swords.png" width="10%">
+                       <h3>Игры в Дуо</h3>
+                       <p>На услушу игры в режиме дуо выполучаете скидку в размере 50%. Акция не суммируется с другими, кроме большого заказа.</p>
+                        </div>
+                           <div class="col-lg-4 text-center">
+                       <img src="Images/swords.png" width="10%">
+                       <h3>Большой заказ</h3>
+                       <p>При большом заказе(от 100р),если после выполнения заказа, вы пониз, то мы отыграем назад ваш рейтинг(на сумму до 300 рублей).</p>
+                        </div>
+            </div>
+            <div class="top-line-two"></div>
+            <br>
+            <br>
+            <br>
+            <div class="row centered">
+                <div class="col-lg-4 gray-block">
+                    <h4>Бронза</h4>
+                    <p>100р за дивизион</p>
+                </div>
+                <div class="col-lg-4 white-block">
+                     <h4>Серебро</h4>
+                     <p>200р за дивизион</p>
+                </div>
+                <div class="col-lg-4 gray-block">
+                     <h4>Золото</h4>
+                     <p>300р за дивизион</p>
+                </div>
+                <div class="col-lg-4 white-block">
+                     <h4>Платина</h4>
+                     <p>400р за дивизион</p>
+                </div>
+                <div class="col-lg-4 gray-block">
+                     <h4>Алмаз</h4>
+                     <p>500р за дивизион</p>
+                </div>
+                <div class="col-lg-4 white-block">
+                     <h4>Калибровка</h4>
+                     <p>100р за игру</p>
+                </div>
+            </div>
+        </div>
+         <div class="top-line"></div>
+         <br>
+         <br>
+         <div class="container">
+             <div class="row centered">
+                 <div class="col-lg-1"></div>
+             <div class="col-lg-4">
+                 <div class="text-center"><t>Ваша Лига</t></div>
+      <select id="league" value="Your league?" name="league" class="form-control">
+      <option value="1">Бронза</option>
+      <option value="2">Серебро</option>
+      <option value="3">Золото</option>
+      <option value="4">Платина</option>
+      <option value="5">Алмаз</option>
+     </select>
+         <div class="text-center"><t>Ваш Дивизион</t></div>
+      <select id="division" name="division" class="form-control">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+     </select>
+          <div class="text-center"><t>Доп. Услуги</t></div>
+      <select id="sales" name="sales" class="form-control">
+      <option value="0">Без доп.услуг</option>
+      <option value="1">Игра в паре</option>
+      <option value="2">На ваших условиях</option>
+      <option value="3">Скидка первым 10!!!</option>
+     </select>
+    </div>
+    <div class="col-lg-2">
+    <input value="Посчитать/Заказать" class="calc" onclick="calc(document.getElementById('league').value,document.getElementById('division').value,document.getElementById('leaguewant').value,document.getElementById('divisionwant').value)" type="button">
+    </div>
+            
+    
+    <div class="col-lg-4">
+        <div class="text-center"><t>До Лиги</t></div>
+    <select id="leaguewant" name="league" class="form-control">
+      <option value="1">Бронза</option>
+      <option value="2">Серебро</option>
+      <option value="3">Золото</option>
+      <option value="4">Платина</option>
+      <option value="5">Алмаз</option>
+     </select>
+      <div class="text-center"><t>Дивизиона</t></div>
+      <select id="divisionwant" name="division" class="form-control">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+     </select>
+       <div class="text-center"><t>Ваш профиль ВК</t></div>
+      <input type="text" class="form-control" id="vklink" required="required" placeholder="https://vk.com/mr.slandole"/>
+    </div>
+           </div>
+        </div>
+        <div class="container">
+        <div class="row centered">
+        <div class="col-lg-12 text-center">
+       <img src="Images/riot.png" width="10%">
+        </div>
+        </div>
+        </div>
+  <div class="footer text-center"><div><a href="https://vk.com/mr.slandole">
+                           <img src="Images/Vk.png" height="100%"></a> </div>
+                         </div>
+                       
+                                              
+<!--Scripts                       -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/Alerts.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/Calc.js"></script>   
+     <script src="js/Validate.js"></script>      
+    <!--Scripts                       -->
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
